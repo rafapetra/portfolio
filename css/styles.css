@@ -24,6 +24,10 @@ a {
   color: #fbe785;
 }
 
+a:hover {
+  color: #ef8784;
+}
+
 .parent-div {
   display: flex;
   flex-direction: column;
@@ -31,7 +35,7 @@ a {
   height: 100%;
   justify-content: center;
   align-items: center;
-  border: 1px solid #a9bcd0;
+  border: 0px solid #a9bcd0;
   border-radius: 15px;
 
 
@@ -57,7 +61,7 @@ a {
   text-align: center;
   width: 200px;
   padding: 4px;
-  border: 1px solid #a9bcd0;
+  border: 1px solid #ef8784;
   height: auto;
 
 }
@@ -65,7 +69,7 @@ a {
 .banner {
   order: 2;
   width: 100%;
-  border: 1px solid #a9bcd0;
+  border: 0px solid #a9bcd0;
   height: auto;
 
 }
