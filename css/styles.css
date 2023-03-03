@@ -170,6 +170,7 @@ a:hover {
 .tag {
   display: inline-block;
   color: white;
+  background-color: #dd7d79;
   padding: 6px 16px;
   text-align: center;
   text-decoration: none;
