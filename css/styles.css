@@ -10,6 +10,11 @@ html {
   scroll-padding-top: 75px;
 }
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../fonts/SecularOne.ttf');
+}
+
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -78,16 +83,17 @@ a:hover {
   text-align: left;
   width: 100%;
   padding: 4px;
-  border: 0px solid #ef8784;
   height: auto;
   letter-spacing: 2px;
   margin-top: 10px;
+  font-family: 'MyCustomFont';
+  font-size: 14pt;
+  margin-left: 20px;
 }
 
 .banner {
   order: 2;
   width: 100%;
-
   border: 0px solid #a9bcd0;
   height: auto;
 }
@@ -131,6 +137,9 @@ a:hover {
   color: #ffb1af;
   font-size: 16pt;
   margin-bottom: 5px;
+  font-family: 'MyCustomFont';
+  letter-spacing: 1px;
+
 }
 
 .project01 {
@@ -169,8 +178,8 @@ a:hover {
 
 .tag {
   display: inline-block;
+  color: white;
   background-color: #dd7d79;
-  color: rgb(255, 0, 0);
   padding: 6px 16px;
   text-align: center;
   text-decoration: none;
