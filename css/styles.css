@@ -137,6 +137,9 @@ a:hover {
   color: #ffb1af;
   font-size: 16pt;
   margin-bottom: 5px;
+  font-family: 'MyCustomFont';
+  letter-spacing: 1px;
+
 }
 
 .project01 {
