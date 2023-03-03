@@ -102,15 +102,13 @@ a:hover {
   width: 100%;
 }
 
-.footer {
-  order: 3;
-  height: auto;
-}
-
 .menu {
   order: 3;
   height: auto;
+  border-bottom: 3px solid #dd7d79;
+  padding-bottom: 10px;
 }
+
 
 .content {
   order: 4;
