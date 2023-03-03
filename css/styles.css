@@ -169,12 +169,12 @@ a:hover {
 
 .tag {
   display: inline-block;
-  background-color: #4caf50;
+  background-color: #dd7d79;
   color: white;
-  padding: 8px 16px;
+  padding: 6px 16px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  border-radius: 4px;
+  font-size: 11px;
+  border-radius: 84px;
   border: none;
 }
