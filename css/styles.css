@@ -82,8 +82,6 @@ a:hover {
   border: 0px solid #a9bcd0;
   display: flex;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
   background-color: #05AACC;
 }
 
@@ -145,6 +143,27 @@ a:hover {
   gap: 3px;
 }
 
+.list-item {
+  background-color: #0099CC; /* Set the background color for the list item's text */
+  display: inline-block; /* Make the background only cover the width of the text */
+  padding: 15px; /* Add some padding to make the text more legible */
+  width: 95%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+.content-skill {
+  order: 1;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 15px;
+
+}
+
 .content-skills {
   order: 2;
   height: auto;
@@ -159,6 +178,15 @@ a:hover {
 
 .content h1 {
   color: #ffb1af;
+  font-size: 16pt;
+  font-family: 'MyCustomFont';
+  letter-spacing: 1px;
+
+}
+
+
+.container-2 h1 {
+  color: #ffffff;
   font-size: 16pt;
   font-family: 'MyCustomFont';
   letter-spacing: 1px;
