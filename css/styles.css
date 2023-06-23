@@ -150,7 +150,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  margin-top: 20px;
 }
 
 .list-item {
